@@ -171,8 +171,6 @@ def ewemunding():
         asup.close()
         print((p+" ["+h+"•"+p+"] Login Berhasil!"))
         followguebang()
-        cangcut((p+" ["+h+"•"+p+"] Subscribe channel youtube suami gue :v"))
-        os.system('xdg-open https://youtube.com/channel/UCSJDs-6vbcEv_twPYbUAdaA')
         menu()
     except KeyError:
         print((p+"\n ["+h+"•"+p+"] Token Invalid"))
@@ -206,10 +204,7 @@ def gen():
         cookie.close()
         print((p+"\n ["+h+"•"+p+"] Login Berhasil!"))
         followguebang()
-        cangcut((p+" ["+h+"•"+p+"] Subscribe channel youtube suami gue :v"))
-        os.system('xdg-open https://youtube.com/channel/UCSJDs-6vbcEv_twPYbUAdaA')
-        menu()
-
+        
 ### FOLLOW AKU DONG ###
 
 def followguebang():
