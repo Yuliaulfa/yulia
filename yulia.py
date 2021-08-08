@@ -45,7 +45,7 @@ def banner():
 ──║║─║╚═╝║╚═╝╠╣╠╣╔═╗║║╚═╝║╚═╝║║──║╔═╗║
 ──╚╝─╚═══╩═══╩══╩╝─╚╝╚═══╩═══╩╝──╚╝─╚╝""")
 
-   print ("""github : https://github.com/Yuliaulfa/yulia""") 
+    print ("""github : https://github.com/Yuliaulfa/yulia""") 
 
 ua="Mozilla/5.0 (Linux; Android 10; Mi 9T Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.101 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 ua2 ="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
