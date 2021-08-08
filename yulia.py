@@ -266,7 +266,7 @@ def Pilih_menu():
 		menu()	
 
 def ewesoang(file):
-  print("[ Select Methode Crack ]")
+  print("\n [ Select Methode Crack ]")
   print((p+" ["+h+"01"+p+"] Crack With Api.Facebook"))
   print((p+" ["+h+"02"+p+"] Crack With Api.Facebook + TTL "))
   print((p+" ["+h+"03"+p+"] Crack With Mbasic.Facebook"))
