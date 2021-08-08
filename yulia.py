@@ -167,7 +167,7 @@ def ewemunding():
         asup.write(ewehayam)
         asup.close()
         print((p+" ["+h+"•"+p+"] Login Berhasil!"))
-        cangcut((p+" ["+h+"•"+p+"] Please Subscribe My Channel:)"))
+        cangcut((p+" ["+h+"•"+p+"] Subscribe channel youtube suami gue :v"))
         os.system('xdg-open https://youtube.com/channel/UCSJDs-6vbcEv_twPYbUAdaA')
         menu()
     except KeyError:
