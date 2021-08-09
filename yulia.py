@@ -485,11 +485,9 @@ def siagoblog(text):
 				results.append(i)
 				if "indonesia" in ips:
 					results.append("sayang")
-					results.append("kontol")
 					results.append("anjing")
 					results.append("bismillah")
-					results.append("bajingan")
-					results.append("bangsat")
+					results.append("123456")
 	return results
 
 ### MODULE CRACK ###
