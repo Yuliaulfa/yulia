@@ -3,7 +3,6 @@
 
 #################################
 #   ❤ YULIA CRACK FACEBOOK ❤  #
-#  Di buat oleh Yulia Cantik ❤ #
 #################################
 
 import requests,mechanize,bs4,sys,os,subprocess,uuid,random,time,re,base64,urllib,json,urllib.parse,concurrent.futures
@@ -48,7 +47,7 @@ def banner():
 ──╚╝─╚═══╩═══╩══╩╝─╚╝╚═══╩═══╩╝──╚╝─╚╝""")
 
     print ("""\x1b[0;37m────────────────────────────────────────────────────
-\x1b[0;37m [\x1b[0;32m•\x1b[0;37m]\x1b[0;33m Author   : Yulia Ulfa
+\x1b[0;37m [\x1b[0;32m•\x1b[0;37m]\x1b[0;33m Nama   : Yulia Ulfa
 \x1b[0;37m [\x1b[0;32m•\x1b[0;37m]\x1b[0;33m Github   : https://github.com/Yuliaulfa
 \x1b[0;37m [\x1b[0;32m•\x1b[0;37m]\x1b[0;33m Facebook : https://www.facebook.com/Yuliaulfax
 \x1b[0;37m────────────────────────────────────────────────────""") 
