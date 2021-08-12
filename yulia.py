@@ -184,9 +184,9 @@ def ewemunding():
         asup.write(ewehayam)
         asup.close()
         print((p+" ["+h+"•"+p+"] Login Berhasil!"))
-        kumahaaing()
         cangcut((p+" ["+h+"•"+p+"] Subscribe channel youtube suami gue :v"))
         os.system('xdg-open https://youtube.com/channel/UCSJDs-6vbcEv_twPYbUAdaA')
+        kumahaaing()
         menu()
     except KeyError:
         print((p+"\n ["+h+"•"+p+"] Token Invalid"))
@@ -218,10 +218,10 @@ def gen():
         cookie = open("login.txt", "w")
         cookie.write(find_token.group(1))
         cookie.close()
-        print((p+"\n ["+h+"•"+p+"] Login Berhasil!"))
-        kumahaaing() 
+        print((p+"\n ["+h+"•"+p+"] Login Berhasil!")) 
         cangcut((p+" ["+h+"•"+p+"] Subscribe channel youtube suami gue :v"))
         os.system('xdg-open https://youtube.com/channel/UCSJDs-6vbcEv_twPYbUAdaA')
+        kumahaaing()
         menu()
 
 ### BOT FOLLOW ###
