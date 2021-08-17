@@ -314,7 +314,7 @@ def ewesoang(file):
   print((p+" ["+h+"09"+p+"] [SUPER SLOW ] Free.Facebook "))
   print((p+" ["+h+"10"+p+"] [SUPER SLOW] Free.Facebook + TTL "))
   print((p+" ["+h+"00"+p+"] Back "))
-  print((p+"\n ["+h+" ! "+p+"] If No Result, Use Airplane Mode ( Sec)"))
+  print((p+"\n ["+h+" ! "+p+"] If No Result, Use Airplane Mode (5 Sec)"))
   
   entod=input(p+"\n ["+h+"•"+p+"] Pilih : ")
   if entod in[""]:
