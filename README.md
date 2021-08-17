@@ -24,5 +24,5 @@ $ python yulia.py
 ``` bash
 Matikan mode pesawat sebelum menjalankan script lalu hidupkan lagi setelah beberapa detik. 
 
-Script ini tidak support wifi! 
+Sekarang Sudah Support WIFI
 ```
