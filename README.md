@@ -22,7 +22,7 @@ $ python yulia.py
 
 #### Catatan
 ``` bash
-Matikan mode pesawat sebelum menjalankan script lalu hidupkan lagi setelah beberapa detik. 
+Hidupkan mode pesawat sebelum menjalankan script lalu matikan lagi setelah 5 detik. 
 
 Sekarang Sudah Support WIFI
 ```
